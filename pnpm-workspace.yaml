@@ -1,3 +1,7 @@
 packages:
-  - "apps/*"
-  - "packages/*"
+  - configs/*
+  - apps/*
+  - apps/*/tests
+  - libs/*/go
+  - libs/*/ui
+  - libs/*/ts

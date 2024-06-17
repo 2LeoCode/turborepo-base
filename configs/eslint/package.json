@@ -1,0 +1,23 @@
+{
+  "name": "@repo/configs-eslint",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf node_modules dist"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@types/node": "^20.14.2",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-turbo": "^2.0.3",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-svelte": "^2.39.3",
+    "globals": "^15.4.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.13.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

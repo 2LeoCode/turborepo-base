@@ -1,0 +1,9 @@
+{
+  "name": "@repo/libs-todo-go",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.go",
+  "scripts": {
+    "clean": "rm -rf dist node_modules"
+  }
+}

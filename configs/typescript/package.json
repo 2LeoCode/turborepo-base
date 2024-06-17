@@ -1,0 +1,15 @@
+{
+  "name": "@repo/configs-typescript",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf node_modules dist"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "^5.0.4"
+  }
+}

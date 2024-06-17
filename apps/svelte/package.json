@@ -1,0 +1,32 @@
+{
+  "name": "@apps/apps-svelte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint .",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "pnpm preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "clean": "rm -rf dist node_modules"
+  },
+  "dependencies": {
+    "@repo/libs-todo-ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@repo/configs-eslint": "workspace:*",
+    "@repo/configs-prettier": "workspace:*",
+    "@repo/configs-typescript": "workspace:*",
+    "@repo/libs-todo-ts": "workspace:*",
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@tsconfig/svelte": "^5.0.4",
+    "postcss-load-config": "^5.0.0",
+    "svelte": "^4.2.18",
+    "svelte-check": "^3.8.0",
+    "tslib": "^2.6.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.0"
+  }
+}

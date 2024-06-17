@@ -1,0 +1,22 @@
+{
+  "name": "@repo/apps-go",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.go",
+  "scripts": {
+    "build": "go build -o dist/todo-go .",
+    "start": "./dist/todo-go",
+    "dev": "go run .",
+    "test": "go test ./...",
+    "clean": "rm -rf node_modules dist"
+  },
+  "dependencies": {
+    "@repo/libs-todo-go": "workspace:*"
+  },
+  "devDependencies": {
+    "@repo/configs-typescript": "workspace:*",
+    "eslint": "^8.56.0",
+    "prettier": "^3.3.1",
+    "typescript": "^5.4.5"
+  }
+}
